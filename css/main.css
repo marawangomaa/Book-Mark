@@ -1,0 +1,72 @@
+::selection{
+    color: red;
+    background-color: #fec260;
+}
+
+body{
+    background-color: #f7ecde !important;
+
+}
+h1{
+    font-family: "Pacifico", cursive !important;
+    font-size: 50px !important;
+    position: relative;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 265px;
+    height: 25%;
+    background-color: #fec260;
+    z-index: -1;
+    transition: all .5s;
+}
+h1:hover::before{
+    height: 50%;
+}
+
+/*! book mark */
+.bookMarkBody{
+    border-top: dotted black 2px;
+    border-bottom: dotted black 2px;
+}
+h2{
+    background: -webkit-linear-gradient(left,rgb(61,165,92), rgb(158,178,59));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-submit{
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #d1512d !important;
+    --bs-btn-border-color: #d1512d !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #bb4120 !important;
+    --bs-btn-hover-border-color: #a03315 !important;
+}
+
+.btn-visit{
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #9eb23b !important;
+    --bs-btn-border-color: #9eb23b !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #7d8f25 !important;
+    --bs-btn-hover-border-color: #7d8f25 !important;
+    padding-inline: 1rem !important;
+}
+.btn-delet{
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #eb1d36 !important;
+    --bs-btn-border-color: #eb1d36 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #b41a2c !important;
+    --bs-btn-hover-border-color: #b41a2c !important;
+    padding-inline: 1rem !important;
+}
+
+
+/* img{
+    width: 30px;
+} */
